@@ -1,0 +1,253 @@
+/* *{
+    background-color: #f5f5f5;
+} */
+.game-color{
+    
+    background-image: linear-gradient(rgb(10, 10, 73),rgba(10, 54, 104, 0.459));
+}
+.game-main-div{
+    display: flex;
+    /* background-image: linear-gradient(rgb(10, 10, 73),rgba(10, 54, 104, 0.459)); */
+    background-color: #0f004d !important;
+}
+.game-btn{
+    padding-top: 3rem !important;
+    padding-right: 4rem !important;
+}
+.game-inp{
+    width: 50%;
+    background-image: linear-gradient(180deg, rgb(0 30 76 / 93%) 100%, #000000 100%);
+    color: aliceblue;
+}
+.graph-img{
+    height: 100%;
+}
+.game-sub-card{
+    padding-left: 4rem !important;
+}
+.game-bet{
+    padding: 0.5rem 4rem !important;
+}
+.game-sub-card h5{
+    color: white;
+}
+h6{
+    color: white !important;
+}
+/* table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2} */
+  .game-sidebar{
+    background-image: linear-gradient(rgb(10, 10, 73),rgba(10, 54, 104, 0.459));
+    width: 85%;
+  }
+
+ td{
+    width: 0% !important;
+    background-image: linear-gradient(rgb(10, 10, 73),rgba(10, 54, 104, 0.459));
+    font-size: 0.8rem;
+  }
+  .game-ra{
+    border-radius: 16px 0px 0px 16px;
+  }
+.back-img{
+    position: relative;
+    /* height:80% !important; */
+}
+.graph-main{
+    position: absolute;
+    width: 45%;
+    color: white;
+    top: 12rem;
+    left: -23rem;
+}
+  
+	#x1,
+	#y1 {
+		position: absolute;
+		font-size: larger;
+	}
+	
+	#x1 {
+		bottom: -50px;
+		left: 100px;
+	}
+	
+	#y1 {
+		left: -60px;
+		bottom: 110px;
+	}
+	
+	#h1,
+	#h3 {
+		text-align: center;
+		color: green;
+	}
+	
+	#chart {
+		border-bottom: 2px solid white;
+		border-left: 2px solid white;
+		margin-left: 500px;
+		margin-top: 45x;
+		height: 250px;
+		/* width: 250px;
+		position: relative; */
+	}
+	
+	#point1,
+	#point2,
+	#point3,
+	#point4,
+	#point5 {
+		border-radius: 50%;
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		z-index: 1;
+	}
+	
+	#point1 {
+		background-color: violet;
+		bottom: 76px;
+		left: 36px;
+	}
+	
+	#point2 {
+		background-color: pink;
+		bottom: 116px;
+		left: 76px;
+	}
+	
+	#point3 {
+		background-color: orange;
+		bottom: 76px;
+		left: 116px;
+	}
+	
+	#point4 {
+		background-color: greenyellow;
+		bottom: 116px;
+		left: 156px;
+	}
+	
+	#point5 {
+		background-color: green;
+		bottom: 76px;
+		left: 196px;
+	}
+	
+	#line1,
+	#line2,
+	#line3,
+	#line4 {
+		height: 3px;
+		position: absolute;
+		transform-origin: left bottom;
+		width: 56.57px;
+	}
+	
+	#line1 {
+		background-color: black;
+		bottom: 80px;
+		left: 40px;
+		transform: rotate(-45deg);
+	}
+	
+	#line2 {
+		background-color: black;
+		bottom: 120px;
+		left: 80px;
+		transform: rotate(45deg);
+	}
+	
+	#line3 {
+		background-color: black;
+		bottom: 80px;
+		left: 120px;
+		transform: rotate(-45deg);
+	}
+	
+	#line4 {
+		background-color: black;
+		bottom: 120px;
+		left: 160px;
+		transform: rotate(45deg);
+	}
+.crash-btn{
+    display: flex;
+    position: absolute;
+    top: 5rem;
+    left: 9rem;
+}
+    .crash-btn1{        
+        background-color: #D00000 !important;
+        color: white !important;        
+        border: none !important;
+    }
+    .crash-btn2{
+        background-color: #4360FA !important;
+        color: white;
+        margin-left: 0.8rem;
+    }
+    .crash-btn3{
+        background-color: #36CE00 !important;
+        color: white;
+        margin-left: 0.8rem;
+    }
+    .crash-btn4{
+        background-color: #4360FA !important;
+        color: white;
+        margin-left: 0.8rem;
+    }
+    .crash-btn5{
+        background-color: #FFE600 !important;
+        color: white;
+        margin-left: 0.8rem;
+    }
+    .crash-btn6{        
+        background-color: #D00000 !important;
+        color: white !important;        
+        border: none !important;
+        margin-left: 0.8rem;
+    }
+    .crash-btn7{
+        background-color: #FFE600 !important;
+        color: white;
+        margin-left: 0.8rem;
+    }
+    .crash-btn8{        
+        background-color: #D00000 !important;
+        color: white !important;        
+        border: none !important;
+        margin-left: 0.8rem;
+    }
+    .crash-rocket{
+        position: absolute;
+        width: 8%;
+        top: 14rem;
+        left: 31rem;
+    }
+    .crash-img{
+        width: 100%;
+    }
+
+    .cash-graph-icon{
+        position: absolute;
+    color: #ffffff;
+    top: 5rem;
+    left: 6rem;
+    }
+
+    
+
+   
